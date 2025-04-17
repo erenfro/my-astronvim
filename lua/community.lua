@@ -28,7 +28,7 @@ return {
 
   -- Extensions to improve quality of life
   { import = "astrocommunity.editing-support.suda-vim" },
-  { import = "astrocommunity.terminal-integration.vim-tmux-yank" },
+  -- { import = "astrocommunity.terminal-integration.vim-tmux-yank" },
   -- { import = "astrocommunity.bars-and-lines.lualine-nvim" },
   -- { import = "astrocommunity.bars-and-lines.feline-nvim" },
 
