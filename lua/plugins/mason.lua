@@ -1,4 +1,4 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+-- if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 
 -- Customize Mason
 
@@ -13,6 +13,12 @@ return {
       ensure_installed = {
         -- install language servers
         "lua-language-server",
+        "bash-language-server",
+        "awk-language-server",
+        "docker-compose-language-service",
+        "dockerfile-language-server",
+        "harper-ls",
+        "luau-lsp",
 
         -- install formatters
         "stylua",

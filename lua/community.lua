@@ -9,6 +9,15 @@ return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
   -- import/override with your plugins folder
+  { import = "astrocommunity.pack.ansible" },
+  { import = "astrocommunity.pack.bash" },
+  { import = "astrocommunity.pack.chezmoi" },
+  { import = "astrocommunity.pack.docker" },
+  { import = "astrocommunity.pack.fish" },
+  { import = "astrocommunity.pack.markdown" },
+  { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.toml" },
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.editing-support.suda-vim" },
+  { import = "astrocommunity.terminal-integration.vim-tmux-yank" },
 }
