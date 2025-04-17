@@ -15,9 +15,9 @@ return {
         "lua-language-server",
         "bash-language-server",
         "awk-language-server",
-        "docker-compose-language-service",
-        "dockerfile-language-server",
-        "harper-ls",
+        -- "docker-compose-language-service",
+        -- "dockerfile-language-server",
+        -- "harper-ls",
         "luau-lsp",
 
         -- install formatters
